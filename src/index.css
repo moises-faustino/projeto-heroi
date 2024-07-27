@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.header {
+  background-color: #e0e0e0;
+  height: 50px;
+  padding-left: 20px;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.input {
+  height: 30px;
+  background-color: transparent;
+  border-color: grey;
+  border-width: 0.5px;
+}
+
+::placeholder {
+  color: black;
+  padding-left: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  border-left: 20px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.card {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: solid 1px grey;
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  padding-left: 15px;
+}
